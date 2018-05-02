@@ -10,13 +10,17 @@
 }
 
 #logo {
-  color: black;
-  padding-top: 40px;
+  color: white;
+  padding-top: 10px;
   font-size: 50px;
   transition: all ease .5s;
 }
+#logo a:link, #logo a:hover{
+  text-decoration: none;
+  color: white;
+}
 #navStuff{
-  padding-top: 100px;
+  padding-top: 30px;
   position: fixed;
 }
 #hero{
@@ -32,19 +36,13 @@
   width: 2px;
   transition: all ease .5s;
 }
-.navButton{
-  color: white;
-}
 
 .spacer{
   padding: 12px;
 }
-#nav.shrink .navButton {
-  color: white;
-  transition: all ease .5s;
-}
+
 #nav.shrink #logo {
-  padding: 10px;
+  padding: 5px;
   font-size: 35px;
   color: black;
 }
@@ -53,4 +51,7 @@
   margin-top: auto;
   margin-bottom: auto;
   transition: all ease .5s;
+}
+#color{
+  background-color: #33b5e5;
 }
