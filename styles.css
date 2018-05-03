@@ -29,7 +29,7 @@
 #nav.shrink {
   height: 70px;
   transition: all ease .5s;
-  background: rgba(200,200,200, .9); // Change background to black on scroll
+  background: rgba(200,200,200, .9); 
 }
 #picLogo.shrink{
   height: 5px;
